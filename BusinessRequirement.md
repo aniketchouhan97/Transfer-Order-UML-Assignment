@@ -35,4 +35,5 @@
 
 [Activity Diagram](https://app.diagrams.net/?src=about#G1xv6_VNItUKb0VT-lZBvwII5oNLaAiGY6#%7B%22pageId%22%3A%22y43tyqAgQOeB4impPFNC%22%7D)
 
-![alt text](image-1.png)
+<img width="548" height="785" alt="image" src="https://github.com/user-attachments/assets/ec521a57-8ffd-409e-8759-52bead890378" />
+
