@@ -1,0 +1,326 @@
+{
+  "FacilityGroup": [
+    {
+      "facilityGroupId": "ZONE_EAST",
+      "facilityGroupTypeId": "ZONE_MAPPING",
+      "facilityGroupName": "East Coast Zone"
+    },
+    {
+      "facilityGroupId": "ZONE_WEST",
+      "facilityGroupTypeId": "ZONE_MAPPING",
+      "facilityGroupName": "West Coast Zone"
+    }
+  ],
+  "Facility": [
+    {
+      "facilityId": "WH_NY_01",
+      "facilityTypeId": "WAREHOUSE",
+      "facilityName": "New York Central Hub",
+      "primaryFacilityGroupId": "ZONE_EAST"
+    },
+    {
+      "facilityId": "WH_LA_01",
+      "facilityTypeId": "WAREHOUSE",
+      "facilityName": "Los Angeles Central Hub",
+      "primaryFacilityGroupId": "ZONE_WEST"
+    },
+    {
+      "facilityId": "STORE_NY_01",
+      "facilityTypeId": "RETAIL_STORE",
+      "facilityName": "Manhattan Store NY",
+      "primaryFacilityGroupId": "ZONE_EAST"
+    },
+    {
+      "facilityId": "STORE_NY_02",
+      "facilityTypeId": "RETAIL_STORE",
+      "facilityName": "Brooklyn Store NY",
+      "primaryFacilityGroupId": "ZONE_EAST"
+    },
+    {
+      "facilityId": "STORE_NY_03",
+      "facilityTypeId": "RETAIL_STORE",
+      "facilityName": "Queens Store NY",
+      "primaryFacilityGroupId": "ZONE_EAST"
+    },
+    {
+      "facilityId": "STORE_NJ_01",
+      "facilityTypeId": "RETAIL_STORE",
+      "facilityName": "Newark Store NJ",
+      "primaryFacilityGroupId": "ZONE_EAST"
+    },
+    {
+      "facilityId": "STORE_BOS_01",
+      "facilityTypeId": "RETAIL_STORE",
+      "facilityName": "Boston Store MA",
+      "primaryFacilityGroupId": "ZONE_EAST"
+    },
+    {
+      "facilityId": "STORE_LA_01",
+      "facilityTypeId": "RETAIL_STORE",
+      "facilityName": "Hollywood Store LA",
+      "primaryFacilityGroupId": "ZONE_WEST"
+    },
+    {
+      "facilityId": "STORE_LA_02",
+      "facilityTypeId": "RETAIL_STORE",
+      "facilityName": "Santa Monica Store LA",
+      "primaryFacilityGroupId": "ZONE_WEST"
+    },
+    {
+      "facilityId": "STORE_SF_01",
+      "facilityTypeId": "RETAIL_STORE",
+      "facilityName": "Downtown SF Store",
+      "primaryFacilityGroupId": "ZONE_WEST"
+    },
+    {
+      "facilityId": "STORE_SF_02",
+      "facilityTypeId": "RETAIL_STORE",
+      "facilityName": "San Jose Store CA",
+      "primaryFacilityGroupId": "ZONE_WEST"
+    },
+    {
+      "facilityId": "STORE_SD_01",
+      "facilityTypeId": "RETAIL_STORE",
+      "facilityName": "San Diego Store CA",
+      "primaryFacilityGroupId": "ZONE_WEST"
+    }
+  ],
+  "FacilityGroupMember": [
+    {
+      "facilityId": "WH_NY_01",
+      "facilityGroupId": "ZONE_EAST",
+      "fromDate": "2024-01-01"
+    },
+    {
+      "facilityId": "WH_LA_01",
+      "facilityGroupId": "ZONE_WEST",
+      "fromDate": "2024-01-01"
+    },
+    {
+      "facilityId": "STORE_NY_01",
+      "facilityGroupId": "ZONE_EAST",
+      "fromDate": "2024-01-01"
+    },
+    {
+      "facilityId": "STORE_NY_02",
+      "facilityGroupId": "ZONE_EAST",
+      "fromDate": "2024-01-01"
+    },
+    {
+      "facilityId": "STORE_NY_03",
+      "facilityGroupId": "ZONE_EAST",
+      "fromDate": "2024-01-01"
+    },
+    {
+      "facilityId": "STORE_NJ_01",
+      "facilityGroupId": "ZONE_EAST",
+      "fromDate": "2024-01-01"
+    },
+    {
+      "facilityId": "STORE_BOS_01",
+      "facilityGroupId": "ZONE_EAST",
+      "fromDate": "2024-01-01"
+    },
+    {
+      "facilityId": "STORE_LA_01",
+      "facilityGroupId": "ZONE_WEST",
+      "fromDate": "2024-01-01"
+    },
+    {
+      "facilityId": "STORE_LA_02",
+      "facilityGroupId": "ZONE_WEST",
+      "fromDate": "2024-01-01"
+    },
+    {
+      "facilityId": "STORE_SF_01",
+      "facilityGroupId": "ZONE_WEST",
+      "fromDate": "2024-01-01"
+    },
+    {
+      "facilityId": "STORE_SF_02",
+      "facilityGroupId": "ZONE_WEST",
+      "fromDate": "2024-01-01"
+    },
+    {
+      "facilityId": "STORE_SD_01",
+      "facilityGroupId": "ZONE_WEST",
+      "fromDate": "2024-01-01"
+    }
+  ],
+  "Product": [
+    {
+      "productId": "P_SOAP_100G",
+      "internalName": "Neem Soap 100g"
+    },
+    {
+      "productId": "P_SHAMPOO_200",
+      "internalName": "Herbal Shampoo 200ml"
+    }
+  ],
+  "ProductFacility": [
+    {
+      "productId": "P_SOAP_100G",
+      "facilityId": "STORE_NY_01",
+      "minimumStock": 50.0,
+      "inventoryTurnoverRatio": 1.5
+    },
+    {
+      "productId": "P_SHAMPOO_200",
+      "facilityId": "STORE_NY_01",
+      "minimumStock": 20.0,
+      "inventoryTurnoverRatio": 1.2
+    },
+    {
+      "productId": "P_SOAP_100G",
+      "facilityId": "STORE_LA_01",
+      "minimumStock": 100.0,
+      "inventoryTurnoverRatio": 2.0
+    },
+    {
+      "productId": "P_SHAMPOO_200",
+      "facilityId": "STORE_LA_01",
+      "minimumStock": 40.0,
+      "inventoryTurnoverRatio": 1.8
+    }
+  ],
+  "Lot": [
+    {
+      "lotId": "L_SOAP_A",
+      "creationDate": "2024-01-15",
+      "expirationDate": "2025-01-14"
+    },
+    {
+      "lotId": "L_SOAP_B",
+      "creationDate": "2024-03-10",
+      "expirationDate": "2025-03-09"
+    }
+  ],
+  "InventoryItem": [
+    {
+      "inventoryItemId": "INV_1001",
+      "productId": "P_SOAP_100G",
+      "facilityId": "WH_NY_01",
+      "lotId": "L_SOAP_B",
+      "expireDate": "2025-03-09",
+      "quantityOnHandTotal": 500.0,
+      "availableToPromiseTotal": 500.0
+    },
+    {
+      "inventoryItemId": "INV_1002",
+      "productId": "P_SOAP_100G",
+      "facilityId": "WH_NY_01",
+      "lotId": "L_SOAP_A",
+      "expireDate": "2025-01-14",
+      "quantityOnHandTotal": 200.0,
+      "availableToPromiseTotal": 200.0
+    },
+    {
+      "inventoryItemId": "INV_1003",
+      "productId": "P_SHAMPOO_200",
+      "facilityId": "WH_NY_01",
+      "lotId": null,
+      "expireDate": "2026-01-01",
+      "quantityOnHandTotal": 1000.0,
+      "availableToPromiseTotal": 1000.0
+    },
+    {
+      "inventoryItemId": "INV_2001",
+      "productId": "P_SOAP_100G",
+      "facilityId": "WH_LA_01",
+      "lotId": "L_SOAP_B",
+      "expireDate": "2025-03-09",
+      "quantityOnHandTotal": 800.0,
+      "availableToPromiseTotal": 800.0
+    }
+  ],
+  "OrderHeader": [
+    {
+      "orderId": "TO_00991",
+      "orderTypeId": "TRANSFER_ORDER",
+      "originFacilityId": "WH_NY_01",
+      "statusId": "ORDER_APPROVED"
+    },
+    {
+      "orderId": "TO_00992",
+      "orderTypeId": "TRANSFER_ORDER",
+      "originFacilityId": "WH_LA_01",
+      "statusId": "ORDER_APPROVED"
+    }
+  ],
+  "OrderRole": [
+    {
+      "orderId": "TO_00991",
+      "partyId": "STORE_NY_01",
+      "roleTypeId": "SHIP_TO_CUSTOMER"
+    },
+    {
+      "orderId": "TO_00992",
+      "partyId": "STORE_LA_01",
+      "roleTypeId": "SHIP_TO_CUSTOMER"
+    }
+  ],
+  "OrderItem": [
+    {
+      "orderId": "TO_00991",
+      "orderItemSeqId": "00001",
+      "productId": "P_SOAP_100G",
+      "quantity": 100.0
+    },
+    {
+      "orderId": "TO_00992",
+      "orderItemSeqId": "00001",
+      "productId": "P_SHAMPOO_200",
+      "quantity": 150.0
+    }
+  ],
+  "Shipment": [
+    {
+      "shipmentId": "SHP_90012",
+      "shipmentTypeId": "TRANSFER",
+      "originFacilityId": "WH_NY_01",
+      "destinationFacilityId": "STORE_NY_01",
+      "statusId": "IN_TRANSIT"
+    },
+    {
+      "shipmentId": "SHP_90013",
+      "shipmentTypeId": "TRANSFER",
+      "originFacilityId": "WH_LA_01",
+      "destinationFacilityId": "STORE_LA_01",
+      "statusId": "SHIPMENT_SHIPPED"
+    }
+  ],
+  "ShipmentItem": [
+    {
+      "shipmentId": "SHP_90012",
+      "shipmentItemSeqId": "00001",
+      "productId": "P_SOAP_100G",
+      "quantity": 100.0
+    },
+    {
+      "shipmentId": "SHP_90013",
+      "shipmentItemSeqId": "00001",
+      "productId": "P_SHAMPOO_200",
+      "quantity": 150.0
+    }
+  ],
+  "ItemIssuance": [
+    {
+      "itemIssuanceId": "ISS_8811",
+      "orderId": "TO_00991",
+      "orderItemSeqId": "00001",
+      "inventoryItemId": "INV_1002",
+      "shipmentId": "SHP_90012",
+      "shipmentItemSeqId": "00001",
+      "quantity": 100.0
+    },
+    {
+      "itemIssuanceId": "ISS_8812",
+      "orderId": "TO_00992",
+      "orderItemSeqId": "00001",
+      "inventoryItemId": "INV_2001",
+      "shipmentId": "SHP_90013",
+      "shipmentItemSeqId": "00001",
+      "quantity": 150.0
+    }
+  ]
+}
